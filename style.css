@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#signup_wrapper{
+    height: 100vh;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+#signup_wrapper .signup_form{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#signup_wrapper .signup_form .signup_content{
+    color: white;
+    background-color: #0D3043;
+    width: 90%;
+    margin: 0 auto;
+    height: 450px;
+    display: flex;
+    border-bottom: 0 none;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.46);
+    flex-direction: column;
+    align-items: center;
+}
+#signup_wrapper .signup_form .signup_content h1{
+    margin: 2em 0;
+    font-size: 1.8em;
+}
+#signup_wrapper .signup_form .signup_content p a{
+    color: white;
+    font-size: 0.8em;
+}
+#signup_wrapper .signup_form .signup_content .input_field{
+    position: relative;
+    margin-bottom: 2em;
+}
+#signup_wrapper .signup_form .signup_content .input_field input{
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: 0;
+    width: 250px;
+    padding: 0.2em 1.2em;
+    font-size: 1.3em;
+    color: white;
+}
+#signup_wrapper .signup_form .signup_content .input_field i{
+    position: absolute;
+    font-size: 1.5em;
+    top: 3px;
+}
+#signup_wrapper .signup_form .signup_content .input_field .icon{
+    padding: 10px; 
+    color: green; 
+    min-width: 50px; 
+    text-align: center; 
+}
+#signup_wrapper .signup_form .signup_content .form_control button{
+    border: none;
+    padding: 1em 1.5em;
+    margin-right: 1em;
+    width: 110px;
+    font-size: 0.9em;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow:0 1px 4px rgba(6, 18, 38, 1), 0 0 40px rgba(6, 18, 38, 0.3) inset;
+}
+
+/* Media Queries */
+@media screen and (min-width: 450px){
+   #signup_wrapper .signup_form .signup_content{
+    color: white;
+    background-color: #0D3043;
+    width: 430px;
+    margin: 0 auto;
+    height: 460px;
+    display: flex;
+    border-bottom: 0 none;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.46);
+    flex-direction: column;
+    align-items: center;
+    } 
+   #signup_wrapper .signup_form .signup_content .input_field input{
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: 0;
+    width: 300px;
+    padding: 0.2em 1.2em;
+    font-size: 1.3em;
+    color: white;
+}
+}
+@media screen and (min-width: 950px){
+#signup_wrapper{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background: none;
+}
+#signup_wrapper img{
+    height: 100%;
+    width: 100px;
+}
+#signup_wrapper .signup_form{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D3043;
+    height: 100%;
+    width:55%;
+    padding: 0 1.5em;
+}
+#signup_wrapper .signup_form .signup_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 78%;
+    box-shadow: none;
+}
+#signup_wrapper .signup_form .signup_content h1{
+    font-size: 2.5em;
+    margin:0;
+}
+#signup_wrapper .signup_image{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    background-position: center center;
+    background-size: cover;
+}
+#signup_wrapper .signup_form .signup_content .input_field{
+    position: relative;
+    margin-bottom: 2em;
+}
+#signup_wrapper .signup_form .signup_content .input_field input{
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: 0;
+    width: 345px;
+    padding: 0.3em 1.5em;
+    font-size: 1.5em;
+    color: white;
+}
+#signup_wrapper .signup_form .signup_content .input_field i{
+    position: absolute;
+    font-size: 2em;
+    top: 3px;
+}
+#signup_wrapper .signup_form .signup_content .input_field .icon{
+    padding: 10px; 
+    color: green; 
+    min-width: 50px; 
+    text-align: center; 
+}
+#signup_wrapper .signup_form .signup_content .form_control button{
+    border: none;
+    padding: 1em 1.5em;
+    margin-right: 1em;
+    width: 110px;
+    font-size: 0.9em;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow:0 1px 4px rgba(6, 18, 38, 1), 0 0 40px rgba(6, 18, 38, 0.3) inset;
+}
+}
