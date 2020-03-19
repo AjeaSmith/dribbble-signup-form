@@ -4,6 +4,7 @@
  - I used font awesome for the icons
  - I really love the "Montserrat" font, so I imported that from google's font. It can be found here [https://fonts.google.com/specimen/Montserrat](https://fonts.google.com/specimen/Montserrat)
  - CSS Flexbox for layout
+ - https://unsplash.com/ used for images
 
 ### Helpful Links
 - [https://html-color.codes/image](https://html-color.codes/image) pick colors from image
